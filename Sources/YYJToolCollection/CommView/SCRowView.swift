@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SCRowView: SCLayoutView {
+public class SCRowView: SCLayoutView {
 
     public override init(frame: CGRect) {
         super.init(frame: frame)

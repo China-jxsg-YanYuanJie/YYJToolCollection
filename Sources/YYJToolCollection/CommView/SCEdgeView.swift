@@ -9,11 +9,11 @@
 import UIKit
 
 /// 用一个view包住需要展示的view  这可以设置内边距的方法来控制跟随子view变大变小
-class SCEdgeView<T: UIView>: UIView {
+public class SCEdgeView<T: UIView>: UIView {
 
     // MARK: Lifecycle
 
-    init(contentView: T) {
+    public init(contentView: T) {
         self.contentView = contentView
         super.init(frame: .zero)
         setup()
