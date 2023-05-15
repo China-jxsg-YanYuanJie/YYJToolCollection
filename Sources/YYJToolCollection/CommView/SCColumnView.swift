@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SCColumnView: SCLayoutView {
+public class SCColumnView: SCLayoutView {
 
     public override init(frame: CGRect) {
         super.init(frame: frame)
