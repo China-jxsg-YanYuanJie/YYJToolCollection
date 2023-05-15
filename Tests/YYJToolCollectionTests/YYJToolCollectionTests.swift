@@ -7,5 +7,6 @@ final class YYJToolCollectionTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
         XCTAssertEqual(YYJToolCollection().text, "Hello, World!")
+        YYJLog.info("xxxx")
     }
 }
