@@ -12,6 +12,10 @@ import UIKit
 
 public struct YYJLog{
     public static func info(_ message: Any, file: String = #file, method: String = #function, line: Int = #line) {
+        #if DEBUG
+        NSLog("\(message)")
+        #else
         NSLog("🕰[\(Date())][\((file as NSString).lastPathComponent)[\(line)]-\(method)]: \(message)")
+        #endif
     }
 }
